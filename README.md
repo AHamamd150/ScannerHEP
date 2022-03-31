@@ -14,13 +14,13 @@
    The user has to download and install all packages he/she wants to use. The paths to the main directory of the installed packages has to be given in the input file.
    If the package is switched off in the input file, then there is no need to adjust any thing while the whole block will be ignored by the code.
 
-   Usage:
+   Usage: \
    1- ./run.sh input_file.py: run the code with a given input file. please note the input file has  to be in python format. \
    2- ./run.sh -f input_file.py: run the code with force deleting the output "if exist" from previous run. \
    3- ./run.sh --demo: Run the test version of the code where all packages are installed ( Not yet adjusted )\
    4- ./run.sh --help:  help and documenation \
 
-   Useful comments:
+   Useful comments:\
    1- Please be carefule with the version competability of SPheno+HB/HS. Older versions of spheno produces 
       the input to HB/HS as (coupling)^2 which is not compatable with the latest versions of HB/HS \
    2- To use SPheno+HB/HS please be sure that key 76 in the Leshouches file if 1 (or two please look at Spheno wiki) \
