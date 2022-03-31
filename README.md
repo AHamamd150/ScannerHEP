@@ -15,10 +15,10 @@
    If the package is switched off in the input file, then there is no need to adjust any thing while the whole block will be ignored by the code.
 
    Usage:
-   1- ./run.sh input_file.py: run the code with a given input file. please note the input file has  to be in python format.
-   2- ./run.sh -f input_file.py: run the code with force deleting the output "if exist" from previous run. 
-   3- ./run.sh --demo: Run the test version of the code where all packages are installed ( Not yet adjusted )
-   4- ./run.sh --help:  help and documenation
+   1- ./run.sh input_file.py: run the code with a given input file. please note the input file has  to be in python format. \
+   2- ./run.sh -f input_file.py: run the code with force deleting the output "if exist" from previous run. \
+   3- ./run.sh --demo: Run the test version of the code where all packages are installed ( Not yet adjusted )\
+   4- ./run.sh --help:  help and documenation \
 
    Useful comments:
    1- Please be carefule with the version competability of SPheno+HB/HS. Older versions of spheno produces 
@@ -28,7 +28,7 @@
       by the script "source/spectrum2paramcard.py" that fill the input paramter MG card from output spectrums \ 
    4- Using Madgraph for total cross section calculatios, please be sure that the number of events in the given run card is 1 \
    5- For using MicroMegas with different SARAH models, the model files has to be genearted form SARAH and replaced by the model files in work/models
-      To let MicroMgas read the spectrum of the new models, the line "rd" line in the file  "func.mdl" with  "rd             |slhaRead("spc.slha",0)"    \  
+      To let MicroMgas read the spectrum of the new models, the line "rd" line in the file  "func.mdl" with  "rd             |slhaRead("spc.slha",0)"   
       
    How to set up the input file:
    1- MODE : 1 for Spheno scan and 2 for CPsuperH. \
