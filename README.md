@@ -18,7 +18,7 @@
    1- ./run.sh input_file.py: run the code with a given input file. please note the input file has  to be in python format. \
    2- ./run.sh -f input_file.py: run the code with force deleting the output "if exist" from previous run. \
    3- ./run.sh --demo: Run the test version of the code where all packages are installed ( Not yet adjusted )\
-   4- ./run.sh --help:  help and documenation \
+   4- ./run.sh --help:  help and documenation 
 
    Useful comments:\
    1- Please be carefule with the version competability of SPheno+HB/HS. Older versions of spheno produces 
