@@ -197,7 +197,7 @@ TotVarScanned = 29  # Total number of variables scanned.
 
 #################### Grid ###########################
 
-GridVar.append('1 == 2 * 1') ## This mean the first variable equales by second variable times 100
+GridVar.append('1 == 2 * 10') ## This mean the first variable equales by second variable times 10
 GridNum.append('1')    ##One if masses two if matrices  
 
 GridVar.append('6 == 7 * 1')## This mean the third variable equales by second 
