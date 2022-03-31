@@ -1,0 +1,20 @@
+
+
+
+                ##########################################
+                #            Scanner code                #
+                #                                        #
+                #             03/12/19                   #
+                ##########################################
+
+
+   Usage:
+   1- ./run.sh --help:  help and documenation
+   2- ./run.sh --demo: Run the test version of the code where all packages are installed
+      directly to the current directory and runs over all SLHA spectrum calculator
+   3- ./run.sh input_file.py: run the code with a given input file. please note the input file has to end with .py
+
+
+   How to set up the input file:
+   1- npoints:  Integer indicates the number of points you want to scan over.
+   2-
