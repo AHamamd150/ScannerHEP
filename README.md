@@ -9,7 +9,7 @@
 
 
    
-   Multi-cores python scanner package with Machine learning models that can link model spectrum calculators, Spheno or CPsuperH with HiggsBounds, HiggsSignals,MicroMegas and Madgraph.
+   Multi-cores python scanner package that can link model spectrum calculators, Spheno or CPsuperH with HiggsBounds, HiggsSignals,MicroMegas and Madgraph.
    The user can control and specify which set of programs to be switched on or off in his input file.
    The user has to download and install all packages he/she wants to use. The paths to the main directory of the installed packages has to be given in the input file.
    If the package is switched off in the input file, then there is no need to adjust any thing while the whole block will be ignored by the code.
