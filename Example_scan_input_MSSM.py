@@ -20,6 +20,14 @@ MODE = 1                   #1->spHeno , 2 cpsuperh,
 npoints = 200000000           #Number of points you want to scan over
 N_Cores = 46            #Number of cores to be used 
 #####################################################
+##################################
+####### parameters for adaptive sampling #######
+#################################
+Use_vegas = True
+points_init = 50  # Initial number of collected points per core to train vegas
+batch_size = 100   # size of the batch predicted by vegas including the random points
+random_frac= 0.2 # ratio of the random points included in the batch
+#####################################################
 pathS ='//home/ahmed/work/SPheno-3.3.8' #Path to SPheno directory betweenthe quotes
 Lesh ='LesHouches.in.MSSM_low_wino_inp_1'     
 SPHENOMODEL ='MSSM'                   # Model Name as in spheno bin directory, like SPhenoMSSM, SPheno BLSSM, etc
