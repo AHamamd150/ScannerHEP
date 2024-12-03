@@ -163,25 +163,25 @@ ConstNum.append('Decay')
 ConstResNum.append('1') 
 
 
-TotConstScanned =6 # Total number of constraint. If the scanned point doesnt satisfy any of the constrained the spectrum will removed
+TotConstScanned = 6 # Total number of constraint. If the scanned point doesnt satisfy any of the constrained the spectrum will removed
 
 ########################## Higgs Bounds #####################################
-HiggsBounds = 1   #### if 1 ---> switch it on. if 0 swithch off 
+HiggsBounds = 0   #### if 1 ---> switch it on. if 0 swithch off 
 HBPath = '/hammad/HiggsBounds-4.3.1' ## Full path to Higgs bounds
 NH     = '5'       # Number of neutral Higgs bosons 
 NCH    = '1'       # Number of charged Higgs bosons 
 ExcludeHB = 1    # if 1 --> remove the points excluded by HB. If 0 ---> keep the excluded points 
 ######################## Higgs Signals #######################################
-HiggsSignal = 1 #### if 1 ---> switch it on. if 0 swithch off 
+HiggsSignal = 0 #### if 1 ---> switch it on. if 0 swithch off 
 HSPath =  '/hammad/HiggsSignals-1.4.0'  ## Full path to Higgs bounds
 PATHMHUNCERTINITY = '/hammad/MHall_uncertainties.dat' ## mass_uncertinity file needed by higgssignals
 ExcludeHS = 95     # put the upper value of chi square total ..  if 0 do not remove any spec
 
 ######################## Micro Omegas##########################################
-MicoOmegas = 1  #### if 1 ---> switch it on. if 0 swithch off 
+MicoOmegas = 0  #### if 1 ---> switch it on. if 0 swithch off 
 MicoOmegaspath = '/hammad/micromegas_5.2.1/NMSSM_new'  ## Full path to the excutable main file in the MicroOmegas directory
 ######################### MadGraph ########################################
-MadGraph = 1       #Number of the processes Madgrpah is going to compute. 
+MadGraph = 0       #Number of the processes Madgrpah is going to compute. 
 madgraph_path = '/hammad/MG5_aMC_v3_4_2/' 
 RunCard_path = '/hammad/MG5_aMC_v3_4_0_RC3/'  # The run card must have the name "run_card.dat"
 
